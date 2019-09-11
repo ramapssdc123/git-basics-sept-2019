@@ -1,0 +1,62 @@
+1  pwd
+    2  ls
+    3  cd
+    4  cd Desktop
+    5  cd..
+    6  cd ..
+    7  pwd
+    8  ls
+    9  clear
+   10  pwd
+   11  cd Desktop/
+   12  pwd
+   13  ls
+   14  clear
+   15  pwd
+   16  cd ..
+   17  cd Desktop/
+   18  mkdir btcollege
+   19  touch text.txt
+   20  cd btcollege/
+   21  touch sampletest.txt
+   22  cat sampletext.txt
+   23  cat sampletest.txt
+   24  echo hi hello>>sampletest.txt
+   25  echo hi hello bt college>>sampletest.txt
+   26  cat sampletest.txt
+   27  touch sampletest{1..5}.txt
+   28  echo {1..10}
+   29  echo {1..1000}>>sampletest1.txt
+   30  cat sampletest1.txt
+   31  ls -l
+   32  rm sampletest{2..5}.txt
+   33  ls
+   34  rm sampletest.text
+   35  ls
+   36  cat sampletest2>>sampletest1.txt
+   37  cat sampletest1>>sampletest2.txt
+   38  touch sampletest2.txt
+   39  cat sampletest2>>sampletest1.txt
+   40  cat sampletest1>>sampletest2.txt
+   41  echo sampletest1>>sampletest2.txt
+   42  cat sampletest2.txt
+   43  cat sampletest1.txt>>sampletest2.txt
+   44  cat sampletest2.txt
+   45  ls
+   46  mv sampletest2.txt sample.txt
+   47  ls
+   48  touch sample.csv
+   49  ls
+   50  echo sampledata>>sample.csv
+   51  cat sample.csv
+   52  cat sample.txt
+   53  cat sampletest1.txt
+   54  cp sample.txt sampletest.txt
+   55  cd ..
+   56  mv btcollege git
+   57  mv btcollege git
+   58  pwd
+   59  cd git
+   60  ls
+   61  clear
+   62  history
